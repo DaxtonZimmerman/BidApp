@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bid App</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <main class="app">
+      <h1>Bid App</h1>
+
+      <div>
+        <h2>Bid History</h2>
+        <ul id="bid-history">
+          <li>No Bids yet</li>
+        </ul>
+      </div>
+
+      <!-- inputs -->
+      <div>
+        <div>
+          <label for="bidder-1-input">Bidder 1</label>
+          <input id="bidder-1-input" type="number" min="0" step="1" placeholder="Enter amount" />
+          <button id="bidder-1-button" type="button">Place Bid</button>
+        </div>
+        <div>
+          <label for="bidder-2-input">Bidder 2</label>
+          <input id="bidder-2-input" type="number" min="0" step="1" placeholder="Enter amount" />
+          <button id="bidder-2-button" type="button">Place Bid</button>
+        </div>
+      </div>
+
+      <button id="clear-bids-button" type="button">Clear Bids</button>
+
+      <!-- Highest Bidder -->
+      <div>
+        <h2>Highest Bidder</h2>
+        <p id="highest-bidder">No bids yet</p>
+      </div>
+    </main>
+  </body>
+</html>
