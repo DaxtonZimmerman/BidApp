@@ -5,7 +5,6 @@ const bidder2Input = document.getElementById('bidder-2-input');
 const bidder1Button = document.getElementById('bidder-1-button');
 const bidder2Button = document.getElementById('bidder-2-button');
 const clearBidsButton = document.getElementById('clear-bids-button');
-
 const STORAGE_KEY = 'bids';
 
 function loadBids() {
